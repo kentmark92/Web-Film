@@ -183,19 +183,34 @@ body {
     color: lightgray;
 }
 
-.slider {
+.sliders {
     width: 100%;
-    height: 20%;
+    height: auto;
 }
 
-.container {
-    background-color: cadetblue;
+.container .slider {
     width: 100%;
-    height: 20%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow-x: auto;
+  scroll-behavior: smooth;
 }
 
+.container .slider div img {
+    width: 100%;
+    margin: 30% 0;
+}
+.slide {
+    width: 20%;
+    flex-shrink: 0;
+    height: 50%;
+  }
+    
 .footer {
-    background-color: crimson;
     width: 100%;
-    height: 20%;
+    height: auto;
 }
