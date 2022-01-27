@@ -178,14 +178,15 @@ body {
 }
 
 #sign-in a {
-    padding: 100% 0;
+    padding: 100% 30%;
     font-size: 150%;
     color: lightgray;
+    margin: 20%;
 }
 
 .sliders {
     width: 100%;
-    height: auto;
+    height: 15%;
 }
 
 .container .slider {
