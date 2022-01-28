@@ -67,6 +67,7 @@ body {
     width: 20%;
     text-align: center;
     text-transform: uppercase;
+    padding: 1%;
 }
 .header ul li:hover {
     color: gray;
@@ -96,7 +97,7 @@ body {
     position: absolute;
     padding: 9%;
     background-color: rgba(255, 255, 255, 0.7);
-   top: 155%;
+   top: 130%;
    left: 25%;
    
 }
