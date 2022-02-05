@@ -22,7 +22,6 @@ body {
     height: auto;
     margin: 0 20px;
     box-shadow: #a3a0a0 0px -5px 16px 10px;
-    
     background-color: white;
     position: relative;
     
@@ -39,7 +38,7 @@ body {
 }
 
 .header>.hed-list {
-    background-color: rgb(255, 255, 255 );
+    background-color: rgb(255, 255, 255);
     width: 95%;
     height: 100%;
     display: flex;
@@ -190,6 +189,7 @@ body {
     top: 25%;
     bottom: 0;
     right: 20px;
+    z-index: 3;
 }
 
 #sign-in a {
@@ -199,7 +199,7 @@ body {
     margin: 20%;
 }
 
-.sliders {
+/* .sliders {
     width: 100%;
     height: 20%;
     display: flex;
@@ -207,11 +207,11 @@ body {
     flex-wrap: nowrap;
     justify-content: left;
     align-items: center;
-    /* tạo background image */
+    /* tạo background image
     background-image: url(../img/nen-slider.png);
     background-attachment: scroll;  
     background-size: 60% 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     
 }
 #slideshow {
@@ -227,46 +227,6 @@ body {
     padding-top: 15%;
     }
   
-/* tạo slide show ảnh */
-/* #slideshow {
-    overflow: hidden;
-    height: 75%;
-    width: 70%;
-    margin: 0 auto;
-  }
-  
-  .slide-wrapper {
-    width: 100%;
-    -webkit-animation: slide 14s ease infinite;
-  }
-  
-  .slide {
-    float: left;
-    height: 100%;
-    width: 100%;
-  }
-  
-  
-  @-webkit-keyframes slide {
-    20% {margin-left: 0px;}
-    30% {margin-left: -728px;}
-    50% {margin-left: -728px;}
-    60% {margin-left: -1456px;}
-    80% {margin-left: -1456px;}
-  } */
-
-/* #img-slider {
-    width: 100%;
-    height: 50%;
-} */
-/* .bgslider{
-    line-height: 200%;
-}
-/* .bgslider {
-    width: 100%;
-    height: 100%;
-    background-color: black
-} */ 
 
 .container .slider {
     width: 100%;
@@ -283,19 +243,22 @@ body {
 .container .slider div img {
     width: 100%;
     margin: 30% 0;
-}
+} */
 .content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+    padding-bottom: 40px;
 }
 .content h1 {
     border: 1px solid black;
     border-radius: 50px;
-    padding: 10px 50px;
+    padding: 20px 50px;
     margin: 30px 0;
+    font-size: 30px;
+    font-weight: bold;;
 }
 .content .content-item {
     height: 100%;
@@ -305,6 +268,7 @@ body {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+
 }
 .content .content-item div {
     width: 30%;
@@ -336,12 +300,17 @@ body {
     align-items: center;
     flex-direction: column;
     z-index: 10;
+    padding-top: 20px;
+    font-size: 30px;
 }
 .footer h1 {
-    padding: 100px 0 0;
+    padding: 100px 20px 0;
+    text-transform: uppercase ;font-weight: bold;
+    border-bottom: white solid 5px;
 }
 .footer h2 {
     padding: 30px;
+    text-transform: uppercase ;font-weight: bold;
 }
 #info {
     width: 100%;
@@ -349,14 +318,18 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
     text-align: center;
     padding: 60px;
     margin: 20px;
+    font-size: 30px;
 }
 #info a {
     text-decoration: none;
     color: whitesmoke;
     padding: 20px;
     font-size: 20px;
+}
+#info p{
+    text-align: left;
+    padding-top: 7px;
 }
