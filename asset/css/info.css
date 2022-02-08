@@ -228,8 +228,8 @@ height: 100%;
   flex-wrap: wrap;
 }
 #list-film .content-item img {
-  height: 100%;
-  width: 100%;
+  height: 200px;
+  width: 300px;
   display: flex;
   justify-content: space-around;
   align-items: center;
