@@ -217,6 +217,7 @@ height: 100%;
   flex-direction: row;
   flex-wrap: wrap;
   position: absolute;
+  margin: 20px;
 }
 #list-film .content-item div {
   width: 30%;
@@ -226,15 +227,33 @@ height: 100%;
   align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
+  border-radius: 50px;
+  
 }
 #list-film .content-item img {
-  height: 200px;
-  width: 300px;
+  height: 250px;
+  width: 350px;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 20px;
+  /* margin: 20px; */
   border-radius: 50px;
+  
+}
+#list-film .content-item p{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+#list-film .content-item div a {
+    background-color: rgb(231, 231, 231);
+    padding: 0 0 20 0;
+    margin: 10;
+    width: 400px;
+    border-radius: 50px 50px 20px 20px;
+    text-decoration: none;
 }
