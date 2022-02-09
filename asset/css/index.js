@@ -1,73 +1,73 @@
 const totalFilms = [
     {
         title: 'A Nightmare on Elm Street',
-        img: '/asset/img/kinh_di/a_nightmare_on_elm_street.jpeg',
+        img: '../asset/img/kinh_di/a_nightmare_on_elm_street.jpeg',
         the_loai: "kinh_di"
     },
     {
         title: 'A Quiet Place',
-        img: '/asset/img/kinh_di/a_quiet_place.jpg',
+        img: '../asset/img/kinh_di/a_quiet_place.jpg',
         the_loai: "kinh_di"
     },
     {
         title: 'Annabelle',
-        img: '/asset/img/kinh_di/annabelle.jpg',
+        img: '../asset/img/kinh_di/annabelle.jpg',
         the_loai: "kinh_di"
     },
     {
         title: 'Stranger',
-        img: '/asset/img/kinh_di/B3556.jpg',
+        img: '../asset/img/kinh_di/B3556.jpg',
         the_loai: "kinh_di"
     },
     {
         title: 'Insidious',
-        img: '/asset/img/kinh_di/insidious-3-poster-1.jpg',
+        img: '../asset/img/kinh_di/insidious-3-poster-1.jpg',
         the_loai: "kinh_di"
     },
     {
         title: 'REC',
-        img: '/asset/img/kinh_di/REC.jpeg',
+        img: '../asset/img/kinh_di/REC.jpeg',
         the_loai: "kinh_di"
     },
     {
         title: 'Scream',
-        img: '/asset/img/kinh_di/scream.jpeg',
+        img: '../asset/img/kinh_di/scream.jpeg',
         the_loai: "kinh_di"
     },
     {
         title: 'Sinisters',
-        img: '/asset/img/kinh_di/Sinister.jpeg',
+        img: '../asset/img/kinh_di/Sinister.jpeg',
         the_loai: "kinh_di"
     },
     {
         title: 'The Conjuring',
-        img: '/asset/img/kinh_di/the_conjuring.jpeg',
+        img: '../asset/img/kinh_di/the_conjuring.jpeg',
         the_loai: "kinh_di"
     },
     {
         title: 'The Exorcist',
-        img: '/asset/img/kinh_di/the_exorcist.jpeg',
+        img: '../asset/img/kinh_di/the_exorcist.jpeg',
         the_loai: "kinh_di"
     },
     {
         title: 'The Ring',
-        img: '/asset/img/kinh_di/the_ring.jpeg',
+        img: '../asset/img/kinh_di/the_ring.jpeg',
         the_loai: "kinh_di"
     },
     {
         title: 'The Silence of The Lambs',
-        img: '/asset/img/kinh_di/the_silence_of_the_lambs.jpeg',
+        img: '../asset/img/kinh_di/the_silence_of_the_lambs.jpeg',
         the_loai: "kinh_di"
     },
     
     {
         title: 'hjfgah',
-        img: '/asset/img/1.jpg',
+        img: '../asset/img/1.jpg',
         the_loai: "hanh_dong"
     },
     {
         title: 'hjfgah',
-        img: '/asset/img/1/nguoi_nhen.png',
+        img: '../asset/img/1/nguoi_nhen.png',
         the_loai: "hanh_dong",
         the_loai: "kiem_hiep"
     },
