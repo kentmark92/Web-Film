@@ -61,8 +61,73 @@ const totalFilms = [
     },
     
     {
+        title: '6 Underground',
+        img: '../asset/img/hanh_dong/6underground.jpg',
+        the_loai: "hanh_dong"
+    },
+    {
+        title: 'Along With the Gods',
+        img: '../asset/img/hanh_dong/Along_With_the_Gods_The_Two_Worlds.jpg',
+        the_loai: "hanh_dong"
+    },
+    {
+        title: 'American Sniper',
+        img: '../asset/img/hanh_dong/american_sniper.jpg',
+        the_loai: "hanh_dong"
+    },
+    {
+        title: 'Bad Boys for Life',
+        img: '../asset/img/hanh_dong/bad_boys_for_life.jpg',
+        the_loai: "hanh_dong"
+    },
+    {
+        title: 'Chinese Zodiac',
+        img: '../asset/img/hanh_dong/chinese_zodiac.jpg',
+        the_loai: "hanh_dong"
+    },
+    {
+        title: 'Election',
+        img: '../asset/img/hanh_dong/election.jpg',
+        the_loai: "hanh_dong"
+    },
+    {
+        title: 'Extraction',
+        img: '../asset/img/hanh_dong/extraction.jpg',
+        the_loai: "hanh_dong"
+    },
+    {
         title: 'hjfgah',
-        img: '../asset/img/1.jpg',
+        img: '../asset/img/hanh_dong/1.jpg',
+        the_loai: "hanh_dong"
+    },
+    {
+        title: 'hjfgah',
+        img: '../asset/img/hanh_dong/1.jpg',
+        the_loai: "hanh_dong"
+    },
+    {
+        title: 'hjfgah',
+        img: '../asset/img/hanh_dong/1.jpg',
+        the_loai: "hanh_dong"
+    },
+    {
+        title: 'hjfgah',
+        img: '../asset/img/hanh_dong/1.jpg',
+        the_loai: "hanh_dong"
+    },
+    {
+        title: 'hjfgah',
+        img: '../asset/img/hanh_dong/1.jpg',
+        the_loai: "hanh_dong"
+    },
+    {
+        title: 'hjfgah',
+        img: '../asset/img/hanh_dong/1.jpg',
+        the_loai: "hanh_dong"
+    },
+    {
+        title: 'hjfgah',
+        img: '../asset/img/hanh_dong/1.jpg',
         the_loai: "hanh_dong"
     },
     {
