@@ -26,14 +26,15 @@
 /* header */
     
     .header {
-        position: fixed;
+        /* position: fixed; */
         top: 0;
         z-index: 20;
         width: 100%;
-        background-color: #ccc;
-        height: 10%;
+        margin-left: -90px;
+        background-color: #1a1a1a;
+        height: 45px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     }
     
@@ -71,6 +72,7 @@
     
     .header ul li:hover {
         color: whitesmoke;
+        z-index: 30;
         cursor: default;
     }
     
@@ -184,10 +186,14 @@
         padding: 5px 10px;
     } */
     
+    body {
+        background-color: #1a1a1a;
+    }
+    
     .contaier-info-movie {
         display: flex;
-        margin-top: 39px;
-        background-color: #ccc;
+        /* margin-top: 39px; */
+        background-color: #1a1a1a;
     }
     
     .info-container {
