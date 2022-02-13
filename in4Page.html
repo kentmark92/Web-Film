@@ -66,7 +66,7 @@
 
                     </div>
                 </li>
-                <li style="width:185px">Phim chiếu rạp </li>
+                <li style="width:190px">Phim chiếu rạp </li>
             </ul>
         </div>
 
@@ -135,16 +135,16 @@
                             </dt>
                         </dl>
                         <div class="review-movie">
-                            <button>like</button>
-                            <button>share</button>
-                            <button>save on facebook</button>
+                            <a class="btn-like"><i class="fas fa-thumbs-up"></i>like</a>
+                            <a class="btn-share">share</a>
+                            <a class="btn-save"><i class="fas fa-bookmark"></i>save on facebook</a>
                         </div>
                     </div>
                 </div>
                 <!-- tập Phim -->
                 <div class="part-movie">
                     <label>TẬP MỚI NHẤT:</label>
-                    <button class="btn-partmovie">Tập 5</button>
+                    <button style="background-color: #444442a8;" class="btn-partmovie">Tập 5</button>
                     <button class="btn-partmovie">Tập 6</button>
                     <button class="btn-partmovie">Tập 7</button>
                 </div>
@@ -155,7 +155,10 @@
                         <b>NGƯỜI HÒA GIẢI </b> là câu chuyện về Peacemaker và nhóm của mình, và tiết lộ lý do tại sao hắn sẵn sàng làm mọi thứ để đem đến hòa bình cho thế giới, ngay cả việc dùng thứ vũ lực tàn bạo nhất.</div>
                 </div>
                 <div class="appoint-movie">
-                    <label>PHIM ĐỀ CỬ</label>
+                    <div class="appoint">
+                        <i class="far fa-star icon-star"></i>
+                        <label>PHIM ĐỀ CỬ</label>
+                    </div>
                     <div class="movie-list-wrapper">
                         <div class="movie-list">
                             <div class="movie-list-item">
@@ -201,24 +204,64 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="upcoming-movie">
-                <div class="title-upcoming-movie">PHIM SẮP CHIẾU</div>
-                <div class="movie-list">
-                    <img class="img-upcoming-movie" src="./asset/img/img phim bộ/Ấn Độ/Cặp Đôi Bất Xứng.jpeg" alt="">
-                    <img class="img-upcoming-movie" src="./asset/img/img phim bộ/Ấn Độ/Cặp Đôi Bất Xứng.jpeg" alt="">
-                    <img class="img-upcoming-movie" src="./asset/img/img phim bộ/Ấn Độ/Cặp Đôi Bất Xứng.jpeg" alt="">
-                    <img class="img-upcoming-movie" src="./asset/img/img phim bộ/Ấn Độ/Cặp Đôi Bất Xứng.jpeg" alt="">
-                    <img class="img-upcoming-movie" src="./asset/img/img phim bộ/Ấn Độ/Cặp Đôi Bất Xứng.jpeg" alt="">
-                    <img class="img-upcoming-movie" src="./asset/img/img phim bộ/Ấn Độ/Cặp Đôi Bất Xứng.jpeg" alt="">
-                    <img class="img-upcoming-movie" src="./asset/img/img phim bộ/Ấn Độ/Cặp Đôi Bất Xứng.jpeg" alt="">
+            <div class="upcoming-movie">
+                <div class="upcoming-title">
+                    <i class="far fa-star icon-star"></i>
+                    <label>PHIM SẮP CHIẾU</label>
                 </div>
-            </div> -->
+                <div class="ruler-upcoming">
+                    <!-- ----------------------------------- -->
+                    <hr>
+                </div>
+                <div class="movie-container-upcoming">
+                    <div class="movie-list-upcoming">
+                        <div class="movie-list-item-upcoming">
+                            <img class="movie-list-upcoming-img" src="./asset/img phim bộ/Việt Nam/Nhà Trọ Balanha.jpeg" alt="">
+                            <a href="#" class="movie-list-upcoming-name">Nhà Trọ Balanha</a>
+                        </div>
+                        <div class="movie-list-item-upcoming">
+                            <img class="movie-list-upcoming-img" src="./asset/img phim bộ/Việt Nam/Những Ngày Không Quên.jpeg" alt="">
+                            <a href="#" class="movie-list-upcoming-name">Những Ngày Không Quên</a>
+                        </div>
+                        <div class="movie-list-item-upcoming">
+                            <img class="movie-list-upcoming-img" src="./asset/img phim bộ/Trung Quốc/Trầm Nhụy Hoa Viên.jpeg" alt="">
+                            <a href="#" class="movie-list-upcoming-name">Trầm Nhụy Hoa Viên</a>
+                        </div>
+                        <div class="movie-list-item-upcoming">
+                            <img class="movie-list-upcoming-img" src="./asset/img phim bộ/Thái Lan/Anh Chồng Bất Đắt Dĩ.jpeg" alt="">
+                            <a href="#" class="movie-list-upcoming-name">Anh Chồng Bất Đắt Dĩ</a>
+
+                        </div>
+                        <div class="movie-list-item-upcoming">
+                            <img class="movie-list-upcoming-img" src="./asset/img phim bộ/Nhật Bản/Đao Hải Tặc.jpeg" alt="">
+                            <a href="#" class="movie-list-upcoming-name">Đao Hải Tặc</a>
+
+                        </div>
+                        <div class="movie-list-item-upcoming">
+                            <img class="movie-list-upcoming-img" src="./asset/img phim bộ/Hồng Kong/Cô Ấy Không Hoàn Hảo.jpeg" alt="">
+                            <a href="#" class="movie-list-upcoming-name">Cô Ấy Không Hoàn Hảo</a>
+                        </div>
+                        <div class="movie-list-item-upcoming">
+                            <img class="movie-list-upcoming-img" src="./asset/img phim bộ/Hàn Quốc/Bác Sĩ Ma.jpeg" alt="">
+                            <a href="#" class="movie-list-upcoming-name">Bác Sĩ Ma</a>
+                        </div>
+                    </div>
+                    <!-- <div class="movie-list">
+                    <img class="img-upcoming-movie" src="./asset/img/img phim bộ/Ấn Độ/Cặp Đôi Bất Xứng.jpeg" alt="">
+                    <img class="img-upcoming-movie" src="./asset/img/img phim bộ/Ấn Độ/Cặp Đôi Bất Xứng.jpeg" alt="">
+                    <img class="img-upcoming-movie" src="./asset/img/img phim bộ/Ấn Độ/Cặp Đôi Bất Xứng.jpeg" alt="">
+                    <img class="img-upcoming-movie" src="./asset/img/img phim bộ/Ấn Độ/Cặp Đôi Bất Xứng.jpeg" alt="">
+                    <img class="img-upcoming-movie" src="./asset/img/img phim bộ/Ấn Độ/Cặp Đôi Bất Xứng.jpeg" alt="">
+                    <img class="img-upcoming-movie" src="./asset/img/img phim bộ/Ấn Độ/Cặp Đôi Bất Xứng.jpeg" alt="">
+                    <img class="img-upcoming-movie" src="./asset/img/img phim bộ/Ấn Độ/Cặp Đôi Bất Xứng.jpeg" alt="">
+                </div> -->
+                </div>
+            </div>
         </div>
-    </div>
-    <div id="footer">
-        Xem phim online miễn phí chất lượng cao với phụ đề tiếng việt - thuyết minh - lồng tiếng. Mọt phim có nhiều thể loại phim phong phú, đặc sắc, nhiều bộ phim hay nhất - mới nhất.
-    </div>
-    <script src="./asset/js/in4.js"></script>
+        <div id="footer">
+            Xem phim online miễn phí chất lượng cao với phụ đề tiếng việt - thuyết minh - lồng tiếng. Mọt phim có nhiều thể loại phim phong phú, đặc sắc, nhiều bộ phim hay nhất - mới nhất.
+        </div>
+        <script src="./asset/js/in4.js"></script>
 </body>
 
 </html>
