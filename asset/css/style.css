@@ -243,17 +243,34 @@ width: 180px;
   position: absolute;
   width: 350px;
     display: none;
+    flex-wrap: wrap;
     height: 250px;
     background-color: #fff;
     position: absolute;
     top: 100px;
     left: 200px; 
+  
 }
+/* .content .content-item div .info-film1 p {
+  text-align: center;
+  display: flex;
+  width: 350px;
+  height: auto;
+  flex-direction: wrap;
+} */
 .content .content-item div:hover .info-film1{
   display: block;
-  transform: scale(1.1);
   transition: 10s;
-}
+  }
+  .content .content-item div .info-film1 .info-film-title{
+    display: inline-flex;
+    position: absolute;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 5px;
+    align-items: center;
+  }
+
 .content .content-item div .info-film2 {
   position: absolute;
   width: 350px;
