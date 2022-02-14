@@ -3,6 +3,7 @@ const totalFilms = [
         title: 'A Nightmare on Elm Street',
         img: '../asset/img/kinh_di/a_nightmare_on_elm_street.jpeg',
         the_loai: "kinh_di"
+        
     },
     {
         title: 'A Quiet Place',
@@ -96,28 +97,28 @@ const totalFilms = [
         the_loai: "hanh_dong"
     },
     {
-        title: 'hjfgah',
-        img: '../asset/img/hanh_dong/1.jpg',
+        title: 'Fast & Furious 7',
+        img: '../asset/img/hanh_dong/fast_&_furious_7.jpg',
         the_loai: "hanh_dong"
     },
     {
-        title: 'hjfgah',
-        img: '../asset/img/hanh_dong/1.jpg',
+        title: 'Mission Impossible',
+        img: '../asset/img/hanh_dong/mission_impossible.jpg',
         the_loai: "hanh_dong"
     },
     {
-        title: 'hjfgah',
-        img: '../asset/img/hanh_dong/1.jpg',
+        title: 'Momo Upload',
+        img: '../asset/img/hanh_dong/momo_upload.jpeg',
         the_loai: "hanh_dong"
     },
     {
-        title: 'hjfgah',
-        img: '../asset/img/hanh_dong/1.jpg',
+        title: 'The Constable',
+        img: '../asset/img/hanh_dong/the_constable.jpg',
         the_loai: "hanh_dong"
     },
     {
-        title: 'hjfgah',
-        img: '../asset/img/hanh_dong/1.jpg',
+        title: 'The Man From Nowhere',
+        img: '../asset/img/hanh_dong/the_man_from_nowhere.jpg',
         the_loai: "hanh_dong"
     },
     {
