@@ -76,7 +76,6 @@ button:hover {
 }
 
 .container {
-    padding: 30px;
     padding: 50px;
     background-color: whitesmoke;
     width: 30%;
@@ -90,7 +89,7 @@ button:hover {
 
 h1 {
 
-    margin: 0;
+    margin-bottom: 20px;
     color: #000;
     font-size: 50px;
 }

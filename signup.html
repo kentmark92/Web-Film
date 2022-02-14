@@ -3,21 +3,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>ĐĂNG KÝ TÀI KHOẢN</title>
     <link rel="stylesheet" href="./asset/css/login-style.css" />
   </head>
 
   <body>
     
     <form>
-      
       <div class="container">
-        <h1 style="text-align: center" ;>LOGIN</h1>
-        Username
+        <h1 style="text-align: center" ;>ĐĂNG KÝ</h1>
+        Tên đăng nhập
         <input
           id="username"
           type="text"
-          placeholder="Type in your username"
+          placeholder="Nhập tên đăng nhập"
           name="username"
           required
           
@@ -25,17 +24,24 @@
         <label>Password : </label>
         <input id="password"
           type="password"
-          placeholder="Type in your password"
+          placeholder="Nhập password"
           name="password"
           required
         />
-        <button onclick="getInformation()" type="button">Go</button>
-        <a href="./signup.html"> <button type="button">Sign up</button></a>
+        <label>Nhập lại Password : </label>
+        <input id="cfr-password"
+          type="password"
+          placeholder="Nhập lại password"
+          name="confirm_password"
+          required
+        />
+        <button onclick="getInformation()" type="button">Đăng ký</button>
+        <a href="./login.html"> <button type="button">Đăng nhập</button></a>
         
       </div>
     </form>
     
-    <script src="./asset/css/login.js"></script>
+    <script src="./asset/css/signup.js"></script>
   </body>
   
 </html>
