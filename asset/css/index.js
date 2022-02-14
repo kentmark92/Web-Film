@@ -3,6 +3,7 @@ const totalFilms = [
         title: 'A Nightmare on Elm Street',
         img: '../asset/img/kinh_di/a_nightmare_on_elm_street.jpeg',
         the_loai: "kinh_di"
+        
     },
     {
         title: 'A Quiet Place',
