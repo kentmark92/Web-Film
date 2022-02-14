@@ -3,31 +3,31 @@ let girl = [
         surname: 'Nguyễn Ngọc',
         name: 'Hiếu',
         img: './info/Hieu.jpg',
-        desc: 'Làm tạ cho team gánh'
+        desc: 'Info page'
     },
     {
         surname: 'Mai Thanh',
         name: 'Hải',
         img: './info/MTHai.jpg',
-        desc:'Chưa hỏi được làm gì'
+        desc:'Trang thông tin phim'
     },
     {
-        surname: 'Tên Thành',
-        name: 'Viên',
-        img: '',
-        desc:'Chưa hỏi được làm gì'
+        surname: 'Vũ Quang',
+        name: 'Vinh',
+        img: './info/Vinh.png',
+        desc:'Trang đăng kí'
     },
     {
         surname: 'Đăng',
         name: 'Khoa',
         img: './info/Dangkhoa.jpg',
-        desc:'Xử lý data, Xử lý tổng giao diện'
+        desc:'Trang đăng nhập'
     },
     {
         surname: 'Huỳnh Phước',
         name: 'Thịnh',
         img: './info/HPThinh.jpg',
-        desc:'Cân team'
+        desc:'Trang chủ, Danh sách phim '
     },
 ];
 let picture = document.querySelectorAll('.effect-sarah');
