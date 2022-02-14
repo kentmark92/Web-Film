@@ -102,6 +102,9 @@ body {
   right: -320px;
   z-index: 1;
 }
+/* #search p{
+  width: 250px;
+} */
 #search input{
 font-size: 15px;
 width: 180px;
