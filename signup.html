@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ĐĂNG KÝ TÀI KHOẢN</title>
+    <link rel="stylesheet" href="./asset/css/login-style.css" />
+  </head>
+
+  <body>
+    
+    <form>
+      <div class="container">
+        <h1 style="text-align: center" ;>ĐĂNG KÝ</h1>
+        Tên đăng nhập
+        <input
+          id="username"
+          type="text"
+          placeholder="Nhập tên đăng nhập"
+          name="username"
+          required
+          
+        />
+        <label>Password : </label>
+        <input id="password"
+          type="password"
+          placeholder="Nhập password"
+          name="password"
+          required
+        />
+        <label>Nhập lại Password : </label>
+        <input id="cfr-password"
+          type="password"
+          placeholder="Nhập lại password"
+          name="confirm_password"
+          required
+        />
+        <button onclick="getInformation()" type="button">Đăng ký</button>
+        <a href="./login.html"> <button type="button">Đăng nhập</button></a>
+        
+      </div>
+    </form>
+    
+    <script src="./asset/css/signup.js"></script>
+  </body>
+  
+</html>

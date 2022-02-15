@@ -102,6 +102,9 @@ body {
   right: -320px;
   z-index: 1;
 }
+/* #search p{
+  width: 250px;
+} */
 #search input{
 font-size: 15px;
 width: 180px;
@@ -239,66 +242,7 @@ width: 180px;
   flex-wrap: wrap;
   position: relative;
 }
-.content .content-item div .info-film1 {
-  position: absolute;
-  width: 350px;
-    display: none;
-    flex-wrap: wrap;
-    height: 250px;
-    background-color: #fff;
-    position: absolute;
-    top: 100px;
-    left: 200px; 
-  
-}
-/* .content .content-item div .info-film1 p {
-  text-align: center;
-  display: flex;
-  width: 350px;
-  height: auto;
-  flex-direction: wrap;
-} */
-.content .content-item div:hover .info-film1{
-  display: block;
-  transition: 10s;
-  }
-  .content .content-item div .info-film1 .info-film-title{
-    display: inline-flex;
-    position: absolute;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    padding: 5px;
-    align-items: center;
-  }
 
-.content .content-item div .info-film2 {
-  position: absolute;
-  width: 350px;
-    display: none;
-    height: 250px;
-    background-color: #fff;
-    position: absolute;
-    top: 100px;
-    left: 610px;
-}
-.content .content-item div:hover .info-film2{
-  display: block; 
-  transform: scale(1.1);
-}
-.content .content-item div .info-film3 {
-  position: absolute;
-  width: 350px;
-    display: none;
-    height: 250px;
-    background-color: #fff;
-    position: absolute;
-    top: 100px;
-    left: 1000px;
-}
-.content .content-item div:hover .info-film3{
-  display: block; 
-  transform: scale(1.1);
-}
 .content .content-item div {
   width: 30%;
   height: auto;
@@ -309,7 +253,7 @@ width: 180px;
   flex-wrap: wrap;
 }
 .content .content-item img {
-  height: 100%;
+  height: 220px;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -362,9 +306,26 @@ width: 180px;
   text-align: left;
   padding-top: 7px;
 }
-body>p{
+#footer-info{
+width: 100%;
 color: lavender;
 font-size: 30px;
 text-align: center;
 padding: 100px;
+display: flex;
+justify-content: center;
+position: relative;
+}
+#footer-info p{
+  width: 70%;
+}
+#homepage{
+  width: 30%;
+font-size: 70px;
+position: absolute;
+right: -140px;
+    top: 80px;
+}
+#homepage ion-icon {
+  color: whitesmoke;
 }
