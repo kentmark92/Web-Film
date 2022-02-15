@@ -290,11 +290,11 @@
             .info-movie {
                 text-align: justify;
                 overflow-y: scroll;
-                width: auto;
-                max-height: 250px;
+                width: 470px;
+                max-height: 315px;
                 background-color: #282828;
                 list-style-type: none;
-                margin: 5px 10px 0;
+                margin: 5px 0 0px;
             }
             
             .info-movie .info-status {
