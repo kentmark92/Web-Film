@@ -122,30 +122,89 @@ const totalFilms = [
         the_loai: "hanh_dong"
     },
     {
-        title: 'hjfgah',
-        img: '../asset/img/hanh_dong/1.jpg',
-        the_loai: "hanh_dong"
+        title: 'Đấu La Đại Lục',
+        img: '../asset/img/kiem_hiep/dau-la-dai-luc-tieu-chien.jpg',
+        the_loai: "kiem_hiep",
+        conntry: "trung_quoc"
     },
     {
-        title: 'hjfgah',
-        img: '../asset/img/hanh_dong/1.jpg',
-        the_loai: "hanh_dong"
+        title: 'Hạo Y Hành',
+        img: '../asset/img/kiem_hiep/hao-y-hanh.jpg',
+        the_loai: "kiem_hiep",
+        conntry: "trung_quoc"
     },
     {
-        title: 'hjfgah',
-        img: '../asset/img/1/nguoi_nhen.png',
-        the_loai: "hanh_dong",
-        the_loai: "kiem_hiep"
+        title: 'Thanh Kê Chi Bạch Xà',
+        img: '../asset/img/kiem_hiep/thanh-ke-chi-bach-xa-truyen-thuyet-2018.jpg',
+        the_loai: "kiem_hiep",
+        conntry: "trung_quoc"
+    },
+    {
+        title: 'Võ Đang Nhất Kiếm',
+        img: '../asset/img/kiem_hiep/vo-dang-nhat-kiem-first-sword-of-wudang-2021.jpg',
+        the_loai: "kiem_hiep",
+        conntry: "trung_quoc"
+    },
+    {
+        title: 'Đấu La Đại Lục',
+        img: '../asset/img/kiem_hiep/dau-la-dai-luc-tieu-chien.jpg',
+        the_loai: "kiem_hiep",
+        conntry: "trung_quoc"
+    },
+    {
+        title: 'Đấu La Đại Lục',
+        img: '../asset/img/kiem_hiep/dau-la-dai-luc-tieu-chien.jpg',
+        the_loai: "kiem_hiep",
+        conntry: "trung_quoc"
+    },
+    {
+        title: 'Đấu La Đại Lục',
+        img: '../asset/img/kiem_hiep/dau-la-dai-luc-tieu-chien.jpg',
+        the_loai: "kiem_hiep",
+        conntry: "trung_quoc"
+    },
+    {
+        title: 'Đấu La Đại Lục',
+        img: '../asset/img/kiem_hiep/dau-la-dai-luc-tieu-chien.jpg',
+        the_loai: "kiem_hiep",
+        conntry: "trung_quoc"
+    },
+    {
+        title: 'Đấu La Đại Lục',
+        img: '../asset/img/kiem_hiep/dau-la-dai-luc-tieu-chien.jpg',
+        the_loai: "kiem_hiep",
+        conntry: "trung_quoc"
+    },
+    {
+        title: 'Đấu La Đại Lục',
+        img: '../asset/img/kiem_hiep/dau-la-dai-luc-tieu-chien.jpg',
+        the_loai: "kiem_hiep",
+        conntry: "trung_quoc"
+    },
+    {
+        title: 'Đấu La Đại Lục',
+        img: '../asset/img/kiem_hiep/dau-la-dai-luc-tieu-chien.jpg',
+        the_loai: "kiem_hiep",
+        conntry: "trung_quoc"
+    },
+    {
+        title: 'Đấu La Đại Lục',
+        img: '../asset/img/kiem_hiep/dau-la-dai-luc-tieu-chien.jpg',
+        the_loai: "kiem_hiep",
+        conntry: "trung_quoc",
     },
 ]
 const queryString = window.location.search;
-console.log(queryString);
+// console.log(queryString);
 const urlParams = new URLSearchParams(queryString);
-console.log(urlParams);
-const the_loai = urlParams.get('the_loai')
-console.log(the_loai);
-const the_loaihd = totalFilms.filter(hd => hd.the_loai==the_loai)
-console.log(the_loaihd);
+// console.log(urlParams);
+const the_loai = urlParams.get('the_loai');
+// console.log(the_loai);
+
+const the_loaihd = totalFilms.filter(hd => hd.the_loai==the_loai);
+// const country = urlParams.get('country');
+// const conntry = totalFilms.filter(q_gia => q_gia.country==conntry);
+// console.log(the_loaihd);
 {/* <div><a href="#"><img src="../asset/img/1.jpg" alt=""></a></div> */}
 // tạo element để hiển thị ra web
 
