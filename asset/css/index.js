@@ -207,17 +207,31 @@ const the_loaihd = totalFilms.filter(hd => hd.the_loai==the_loai);
 // console.log(the_loaihd);
 {/* <div><a href="#"><img src="../asset/img/1.jpg" alt=""></a></div> */}
 // tạo element để hiển thị ra web
+{/* <div class="movie-list-item"><a href="#"><img class='movie-list-item-img' src="./asset/img/hanh_dong/chinese_zodiac.jpg" alt="">
+<div class="movie-list-item-name">Chinese Zodiac</div>
+<div class="movie-list-item-btn">Watch</div>
+</a></div> */}
 
 the_loaihd.forEach(filmhd => {
     const div_element = document.createElement('div');
+    div_element.className= "movie-list-item";
     const a_element = document.createElement('a');
     const img_element = document.createElement('img');
+    img_element.className="movie-list-item-img";
     const p_element = document.createElement('p');
+    const div_1= document.createElement('div');
+    div_1.className="movie-list-item-name";
+    div_1.innerHTML=filmhd.title;
+    const div_2= document.createElement('div');
+    div_2.className="movie-list-item-btn";
+    div_2.innerHTML='Watch';
     img_element.src=filmhd.img;
     p_element.innerHTML=filmhd.title;
     div_element.appendChild(a_element);
     a_element.appendChild(img_element);
     a_element.appendChild(p_element);
+    // a_element.appendChild(div_1);
+    // a_element.appendChild(div_2);
     const content_item = document.getElementsByClassName('content-item')[0];
     console.log(content_item);
     content_item.appendChild(div_element)
