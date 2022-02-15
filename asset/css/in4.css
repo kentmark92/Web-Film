@@ -8,6 +8,31 @@
                 font-family: Arial, Helvetica, sans-serif;
             }
             
+             :root {
+                --color: #263238;
+                --bgcolor: #0f1416;
+                --lightsOnBg: #FEF4AD;
+                --lightsOutBg: #F8AE39;
+                --candleColor: #FFFFFD;
+                --candleShadow: #673C63;
+                --floorColor: #AD9598;
+                --fireColor: #FF9800;
+                --fireColor2: #FFC107;
+                --fireShadow: #E7C980;
+                --angerColor: #F44336;
+                --primaryColor: #FEF4AD;
+                --secondaryColor: rgb(0, 0, 0);
+                --candleInsetShadow: #95c6f2;
+                --smokeColor: grey;
+                /* //sizes */
+                --floorWidth: 350px;
+                --floorHeight: 5px;
+                --candleWidth: 35px;
+                --candleHeight: 100px;
+                --stickWidth: 3px;
+                --stickHeight: 15px;
+            }
+            
             .text-white {
                 color: #fff !important;
             }
@@ -31,20 +56,17 @@
             
             .header {
                 /* position: fixed; */
-                top: 0;
                 z-index: 20;
                 width: 100%;
-                margin-left: -90px;
-                background-color: #1a1a1a;
-                height: 45px;
+                height: 70px;
                 display: flex;
-                justify-content: space-between;
+                justify-content: center;
                 align-items: center;
             }
             
             .header>.hed-list {
                 background-color: var(--bgcolor);
-                width: 95%;
+                width: 100%;
                 height: 100%;
                 display: flex;
                 justify-content: center;
@@ -58,6 +80,8 @@
                 align-content: space-between;
                 width: 70%;
                 background-color: none;
+                margin-left: -450px;
+                z-index: 2;
             }
             
             .header ul li {
@@ -68,7 +92,7 @@
                 display: inline-flex;
                 flex-direction: column;
                 position: relative;
-                width: 20%;
+                width: 18%;
                 text-align: center;
                 text-transform: uppercase;
                 padding: 1%;
@@ -76,13 +100,31 @@
             
             .header ul li:hover {
                 color: whitesmoke;
-                z-index: 30;
-                cursor: default;
+                cursor: pointer;
             }
             
             .header ul li:hover .sub {
                 display: block;
                 transition-timing-function: ease-out;
+            }
+            
+            #search {
+                display: flex;
+                color: #fff;
+                width: 100%;
+                height: 35px;
+                justify-content: end;
+                position: absolute;
+                right: -320px;
+                z-index: 1;
+            }
+            /* #search p{
+    width: 250px;
+  } */
+            
+            #search input {
+                font-size: 15px;
+                width: 180px;
             }
             /* sub span */
             
@@ -158,7 +200,7 @@
                 position: relative;
                 box-shadow: 0 0 10px rgb(0, 0, 0);
                 float: left;
-                border-radius: 20px;
+                /* border-radius: 20px; */
             }
             
             .box.arrow-top {
@@ -202,7 +244,7 @@
             }
             
             .info-container {
-                max-width: 800px;
+                max-width: 70%;
                 font-size: 14px;
                 display: flex;
                 flex-direction: column;
@@ -227,7 +269,7 @@
             .img-box .poster {
                 object-fit: cover;
                 width: 100%;
-                max-height: 380px;
+                height: 380px;
             }
             
             .btn-poster {
@@ -295,6 +337,17 @@
                 background-color: #282828;
                 list-style-type: none;
                 margin: 5px 0 0px;
+            }
+            
+            .info-status>a {
+                margin-left: 5px;
+                text-decoration: none;
+                color: #fff;
+            }
+            
+            .info-status>a:hover {
+                cursor: pointer;
+                color: #ff9658;
             }
             
             .info-movie .info-status {
