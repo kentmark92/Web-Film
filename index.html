@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./asset/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <title>Web film - Nhóm 8</title>
     <link rel="stylesheet" href="./asset/css/slider.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./asset/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
 </head>
 
 <body>
@@ -57,7 +57,7 @@
 
                     </div>
                 </li>
-                
+
                 <li>Phim lẻ
                     <div class='sub'>
                         <span class="spanTL arrow-top">
@@ -71,7 +71,6 @@
                             <a href="./info/info.html">Đài Loan</a>
                             <a href="./info/info.html">Hồng Kông</a>
                         </span>
-
                     </div>
                 </li>
                 <li>Phim chiếu rạp
@@ -80,16 +79,20 @@
             </ul>
             <div id="search">
                 <ul>
-                    <li><input type="text" ></li>
-                    <li><a href="#"><input type="button" value="Đăng Nhập"></a></li>
+                    <li>
+                        <p id="username"></p>
+                    </li>
+                    <li>
+                        <a id='btn-dn' href="./login.html"><input id="login-btn" type="button" value="Đăng Nhập"></a>
+                    </li>
                 </ul>
             </div>
         </div>
-        
+
     </div>
 
     <div id="container">
-       
+
         <div class="image-slider">
             <div class="image-item">
                 <div class="image">
@@ -124,47 +127,189 @@
         </div>
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript"
-            src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <script src="./asset/css/slider.js"></script>
         <div class="content">
             <h1>PHIM BỘ</h1>
             <div class="content-item">
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film1"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film2"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film3"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film4"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film5"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film6"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film7"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film8"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film9"></div></a></div>
+                <div class="movie-list-item">
+                    <a href="./in4-page/6underground.html"><img class='movie-list-item-img' src="./asset/img/hanh_dong/6underground.jpg" alt="">
+                        <div class="movie-list-item-name">6 Underground</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="./AlongWith.html"><img class='movie-list-item-img' src="./asset/img/hanh_dong/Along_With_the_Gods_The_Two_Worlds.jpg" alt="">
+                        <div class="movie-list-item-name">Along With the Gods The Two Worlds</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="./AmericanSniper.html"><img class='movie-list-item-img' src="./asset/img/hanh_dong/american_sniper.jpg" alt="">
+                        <div class="movie-list-item-name">American Sniper</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="./chineseZodiac.html"><img class='movie-list-item-img' src="./asset/img/hanh_dong/chinese_zodiac.jpg" alt="">
+                        <div class="movie-list-item-name">Chinese Zodiac</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="./FastAndFurious.html"><img class='movie-list-item-img' src="./asset/img/hanh_dong/fast_&_furious_7.jpg" alt="">
+                        <div class="movie-list-item-name">Fast &Furious 7</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="./in4Page.html"><img class='movie-list-item-img' src="./asset/img/hanh_dong/election.jpg" alt="">
+                        <div class="movie-list-item-name">Election</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="./TheManFromNowhere.html"><img class='movie-list-item-img' src="./asset/img/hanh_dong/the_man_from_nowhere.jpg" alt="">
+                        <div class="movie-list-item-name">The Man From Nowhere</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="./ANightmareElmStreestt.html"><img class='movie-list-item-img' src="./asset/img/hanh_dong/bb4.jpg" alt="">
+                        <div class="movie-list-item-name">A Nightmare on Elm Street</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="./ANightmareElmStreestt.html"><img class='movie-list-item-img' src="./asset/img/kinh_di/annabelle.jpg" alt="">
+                        <div class="movie-list-item-name">A Nightmare on Elm Street</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+
+                    </a>
+                </div>
             </div>
             <h1>PHIM LẺ</h1>
             <div class="content-item">
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film10"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film11"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film12"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film13"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film14"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film15"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film16"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film17"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film18"></div></a></div>
+                <div class="movie-list-item">
+                    <a href="./camtunamca.html"><img class='movie-list-item-img' src="./asset/img/kiem_hiep/cam-tu-nam-ca.jpg" alt="">
+                        <div class="movie-list-item-name">Cam Tu Nam Ca</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="./hiemthamgianbattri.html"><img class='movie-list-item-img' src="./asset/img/kiem_hiep/dau-la-dai-luc-tieu-chien.jpg" alt="">
+                        <div class="movie-list-item-name">A Nightmare on Elm Street</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="./haoyhanh.html"><img class='movie-list-item-img' src="./asset/img/kiem_hiep/hao-y-hanh.jpg" alt="">
+                        <div class="movie-list-item-name">A Nightmare on Elm Street</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="./kiemvuongtrieu.html"><img class='movie-list-item-img' src="./asset/img/kiem_hiep/hiep-tham-gian-bat-tri.jpg" alt="">
+                        <div class="movie-list-item-name">A Nightmare on Elm Street</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="./sonhaikinhchi.html"><img class='movie-list-item-img' src="./asset/img/kiem_hiep/son-ha-lenh.jpg" alt="">
+                        <div class="movie-list-item-name">A Nightmare on Elm Street</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="./sonhalenh.html"><img class='movie-list-item-img' src="./asset/img/kiem_hiep/son-hai-kinh-chi-thuong-co-mat-uoc-2020.jpg" alt="">
+                        <div class="movie-list-item-name">A Nightmare on Elm Street</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="./tamthiennha.html"><img class='movie-list-item-img' src="./asset/img/kiem_hiep/thanh-ke-chi-bach-xa-truyen-thuyet-2018.jpg" alt="">
+
+                        <div class="movie-list-item-name">A Nightmare on Elm Street</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="./thanhkechi.html"><img class='movie-list-item-img' src="./asset/img/kiem_hiep/tran-tinh-lenh.jpg" alt="">
+                        <div class="movie-list-item-name">A Nightmare on Elm Street</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="./TheManFromNowhere.html"><img class='movie-list-item-img' src="./asset/img/kiem_hiep/thien-tinh-chi-lo.jpg" alt="">
+
+                        <div class="movie-list-item-name">A Nightmare on Elm Street</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+                    </a>
+                </div>
             </div>
             <h1>PHIM CHIẾU RẠP</h1>
             <div class="content-item">
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film"></div>
-                <div class="info-film19"></div>
-                </a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film"></div></a></div>
-                <div><a href="#"><img src="./asset/img/hanh_dong/bb4.jpg" alt=""><div class="info-film"></div></a></div>
+                <div class="movie-list-item">
+                    <a href="./in4Page.html"><img class='movie-list-item-img' src="./asset/img/kinh_di/a_nightmare_on_elm_street.jpeg" alt="">
+                        <div class="movie-list-item-name">A Nightmare on Elm Street</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="./in4Page.html"><img class='movie-list-item-img' src="./asset/img/kinh_di/a_quiet_place.jpg" alt="">
+                        <div class="movie-list-item-name">A Nightmare on Elm Street</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="./in4Page.html"><img class='movie-list-item-img' src="./asset/img/kinh_di/B3556.jpg" alt="">
+                        <div class="movie-list-item-name">A Nightmare on Elm Street</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="./in4Page.html"><img class='movie-list-item-img' src="./asset/img/kinh_di/insidious-3-poster-1.jpg" alt="">
+                        <div class="movie-list-item-name">A Nightmare on Elm Street</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="./in4Page.html"><img class='movie-list-item-img' src="./asset/img/kinh_di/Sinister.jpeg" alt="">
+                        <div class="movie-list-item-name">A Nightmare on Elm Street</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="./in4Page.html"><img class='movie-list-item-img' src="./asset/img/kinh_di/REC.jpeg" alt="">
+                        <div class="movie-list-item-name">REC</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="./in4Page.html"><img class='movie-list-item-img' src="./asset/img/kinh_di/scream.jpeg" alt="">
+                        <div class="movie-list-item-name">A Nightmare on Elm Street</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="#"><img class='movie-list-item-img' src="./asset/img/kinh_di/the_conjuring.jpeg" alt="">
+                        <div class="movie-list-item-name">A Nightmare on Elm Street</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+                    </a>
+                </div>
+                <div class="movie-list-item">
+                    <a href="#"><img class='movie-list-item-img' src="./asset/img/kinh_di/the_exorcist.jpeg" alt="">
+                        <div class="movie-list-item-name">A Nightmare on Elm Street</div>
+                        <div class="movie-list-item-btn">Xem phim</div>
+                    </a>
+                </div>
             </div>
 
         </div>
@@ -179,21 +324,26 @@
                 <a href="#"><i class="fab fa-github"> GIT HUB</i></a>
             </div>
             <div>
-                <a href="#">
-                <h2 style="">
-                   MEMBER
-                </h2>
-            </a> 
+                <a href="./info/introteam.html">
+                    <h2 style="">
+                        MEMBER
+                    </h2>
+                </a>
             </div>
         </div>
 
     </div>
-    <p> Liên Hệ Quảng Cáo: ads@mindX.com<br>
-   © Copyright 2022 MindX.com. All rights reserved.</p>
-   
-    <!-- <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> -->
+    <div id="footer-info">
+        <p> Liên Hệ Quảng Cáo: ads@mindX.com<br> © Copyright 2022 MindX.com. All rights reserved.</p>
+        <div id="homepage">
+            <a href="./index.html">
+                <ion-icon name="home"></ion-icon>
+            </a>
+        </div>
+    </div>
+    <script src="./asset/css/img/homepage.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
-<script src="./asset/css/index.js"></script>
 
 </html>
